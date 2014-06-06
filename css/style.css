@@ -1,27 +1,28 @@
 body {
-	background-image: url('../images/white_tiles.png');
+	background: #ccc;
 	font-family: 'Roboto Slab', serif;
 	font-size: 16px;
 }
 
-header, section {
-	max-width: 500px;
+header, .container {
+	max-width: 450px;
 	margin: 0 auto;
 }
 
-section p {
+.container p {
 	max-width: 400px;
 }
 h1 {
 	color: #00FF80;
 }
 
-#intro h1 {
+header h1 {
 	color: #00FF80;
 	display: inline;
 }
 
 a {
+	text-shadow: 1px 1px #000;
 	text-decoration: none;
 	color: #00FF80;
 }
@@ -55,22 +56,21 @@ a img:hover {
 }
 
 figure {
-	padding-bottom: 15px;
+	padding-bottom: 30px;
 }
  
 b {
+	text-shadow: 1px 1px #000;
 	color: #00FF80;
 }
 
 footer {
 	background-color: #ccc;
 	font-size: 90%;
+	text-align: center;
+
 }
 
 nav {
 	text-align: center;
-}
-
-footer a {
-	text-shadow: 1px 1px #000;
 }
