@@ -5,20 +5,32 @@ body {
 }
 
 header, .container {
-	max-width: 450px;
+	width: 410px;
 	margin: 0 auto;
 }
 
-.container p {
-	max-width: 400px;
+.container {
+	box-sizing: border-box;
 }
+
 h1 {
 	color: #00FF80;
+	text-shadow: 1px 1px #000;
 }
 
 header h1 {
-	color: #00FF80;
 	display: inline;
+}
+
+
+#avatar {
+	border-radius: 100%;
+	border: 2px solid black;
+}
+
+b {
+	text-shadow: 1px 1px #000;
+	color: #00FF80;
 }
 
 a {
@@ -29,23 +41,12 @@ a {
 
 a:hover {
 	color: #000;
+	text-shadow: 1px 1px #00FF80;
 }
 
-#small_project_examples img {
-  border: 2px solid black;
-}
 
 a img:hover {
 	opacity: 0.5;
-}
-
-.box {
-	box-sizing: border-box;
-}
-
-#avatar {
-	border-radius: 100%;
-	border: 2px solid black;
 }
 
 #small_project_examples {
@@ -55,13 +56,12 @@ a img:hover {
 	overflow: auto;
 }
 
+#small_project_examples img {
+  border: 2px solid black;
+}
+
 figure {
 	padding-bottom: 30px;
-}
- 
-b {
-	text-shadow: 1px 1px #000;
-	color: #00FF80;
 }
 
 footer {
@@ -69,8 +69,4 @@ footer {
 	font-size: 90%;
 	text-align: center;
 
-}
-
-nav {
-	text-align: center;
 }
