@@ -6,15 +6,11 @@
 }
 
 body {
-	background: #ccc;
+	background: #fff;
 	font-family: 'Roboto Slab', serif;
 	font-size: 16px;
 }
 
-/*header, .container {
-	width: 100%;
-}
-*/
 h1 {
 	color: #00FF80;
 	text-shadow: 1px 1px #000;
@@ -29,19 +25,12 @@ header h1 {
 	border: 2px solid black;
 }
 
-.wrapper {
-	width: 1000px;
-	margin: 0 auto;
-	background-color: white;
-}
-
 b {
 	text-shadow: 1px 1px #000;
 	color: #00FF80;
 }
 
 a {
-	display: block;
 	text-shadow: 1px 1px #000;
 	text-decoration: none;
 	color: #00FF80;
@@ -57,9 +46,48 @@ a img:hover {
 	opacity: 0.5;
 }
 
-#small_project_examples {
-	height: 450px;
-	width: 410px;
+figure {
+	padding-bottom: 30px;
+}
+
+/* wrapper parent */
+
+.wrapper {
+	height: 750px;
+	width: 960px;
+	margin: 40px auto;
+	background-color: white;
+	margin-top: 0px;
+}
+
+/* wrapper children */
+
+#side_bar {
+	background-color: #fff;
+	width: 20%;
+	float: left;
+	text-align: center;
+	padding-top: 30px;
+} 
+
+#side_bar:a {
+	display: block;
+}
+
+#about {
+	height: 100%; 
+	padding-top: 50px;
+	padding-left: 20px;
+	width: 40%;
+ 	float: left;
+ 	background: #ccc;
+}
+
+#small_project_examples { 
+	background: #ccc;
+	height: 100%;
+	width: 40%;
+	float: right;
 	padding: 10px; 
 	overflow: auto;
 }
@@ -68,29 +96,8 @@ a img:hover {
   border: 2px solid black;
 }
 
-figure {
-	padding-bottom: 30px;
-}
-
 footer {
-	background-color: #ccc;
+	background-color: inherit;
 	font-size: 90%;
 	text-align: center;
-}
-
-/* wrapper children */
-
-#side_bar {
-	width: 20%;
-	float: left;
-} 
-
-#about {
-	width: 40%;
- 	float: left;
-}
-
-#small_project_examples { 
-	width: 40%;
-	float: right;
 }
