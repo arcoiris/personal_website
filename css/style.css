@@ -27,14 +27,13 @@ b {
 }
 
 a {
-	text-shadow: 1px 1px #000;
 	text-decoration: none;
-	color: #00FF80;
+	color: #000;
 }
 
 a:hover {
-	color: #000;
-	text-shadow: 1px 1px #00FF80;
+	color: #00FF80;
+	text-shadow: 1px 1px #000;
 }
 
 
@@ -58,7 +57,7 @@ figure {
 
 /* wrapper children */
 
-#side_bar {
+.side_bar {
 	background-color: #00FF80;
 	height: 100%;
 	width: 20%;
@@ -67,25 +66,41 @@ figure {
 	padding-top: 30px;
 } 
 
-#side_bar:a {
+.side_bar:a {
 	display: block;
 }
 
-#about {
+.content_box {
+	float: right;
+	width: 80%;
+	height: 100%;
+}
+
+.middle_col {
 	height: 100%; 
 	padding-top: 50px;
 	padding-left: 20px;
-	width: 40%;
+	width: 50%;
  	float: left;
  	background: #ccc;
 }
 
-#small_project_examples { 
+.right_col { 
 	background: #ccc;
 	height: 100%;
-	width: 40%;
+	width: 50%;
 	float: right;
 	padding: 10px; 
+}
+
+.full_col {
+	background-color: #ccc;
+	height: 100%;
+	width: 100%;
+	padding: 50px 30px 0 30px;
+}
+
+#small_project_examples {
 	overflow: auto;
 }
 
