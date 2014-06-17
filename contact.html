@@ -1,11 +1,10 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<!-- tell the broswer to parse the document as utf-8 -->
 	<meta charset="utf-8">
 	<meta name="keywords" content="deborah, lora, arcoiris, ruby, app">
-	<meta name="description" content="Links to stuff that I am using">
-	<title>arcoiris | resources+sundry</title>
+	<meta name="description" content="Contact meh">
+	<title>arcoiris | contact</title>
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 	<link rel="stylesheet" type="text/css" href="css/normalize.css">
 	<link href='http://fonts.googleapis.com/css?family=Roboto+Slab' rel='stylesheet' type='text/css'>
@@ -16,8 +15,9 @@
 	<![endif]-->
 </head>
 <body>
-	<div class="wrapper">
 
+	<div class="wrapper">
+		
 		<div class="side_bar">
 
 				<img src="images/small-selfie.jpg" alt="picture of arcoiris" id="avatar">
@@ -34,36 +34,28 @@
 
 		</div><!-- .side_bar -->
 
-			<div class="content_box">
-				
-				<div class="full_col">
+		<div class="content_box">
 
-					<section>
-						<h2>resources + sundry</h2>
+			<div class="full_col">
 
-						<table>
-							<tr>
-								<td>
-									<a href="http://prework.flatironschool.com/web-development/">Flatiron School Prework</a>
-								</td><td>Free curated learning resource!</td>
-							</tr>
-							<tr>
-								<td><a href="http://generalassemb.ly/">General Assembly</a></td> 
-								<td>
-									A school that provides online and classroom courses and focuses on the tech world, web design, and marketing
-								</td>
-							</tr>
-							<tr>
-								<td><a href="http://teamtreehouse.com/">Treehouse</a></td>
-								<td>A non-free but useful browser-based tech education site</td>
-							</tr>
-						</table>
-				</section>
+				<div id="contact_form">
+					<h3>message me directly:</h3>
+						<form action="post">
+							
+							<input type="text" name="first_name" placeholder="first name">
+							<input type="text" name="last_name" placeholder="last name">
+							<input type="email" name="email" placeholder="youremail@xxx.com">
+							<textarea rows="8" name="message" placeholder="Heyyyyy"></textarea>
+							<input type="submit" value="submit">
+						
+						</form>
+				</div>
 
-			</div><!-- .full_col -->
-	
-		</div><!-- .content_box -->
-	
+			</div> <!-- .full_col -->
+
+		</div><!-- .content_box --> 
+
 	</div><!-- .wrapper -->
+
 </body>
 </html>
