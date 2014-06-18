@@ -17,11 +17,6 @@ h1 {
 	text-shadow: 1px 1px #000;
 }
 
-#avatar {
-	border-radius: 100%;
-	border: 2px solid black;
-}
-
 b {
 	text-shadow: 1px 1px #000;
 	color: #00FF80;
@@ -118,3 +113,17 @@ footer {
 }
 
 /* sprites */
+
+.selfie {
+}
+
+a.avatar { 
+	margin-left: 10px;
+	border-radius: 100%;
+	height: 152px;
+	width: 167px;
+	background: url(../images/shitty_sprite.png);
+}
+
+a.avatar { background-position: 0 0; }
+a.avatar:hover { background-position: 0 -153px;}
