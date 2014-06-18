@@ -41,6 +41,10 @@ figure {
 	padding-bottom: 30px;
 }
 
+#avatar {
+	border-radius: 100%;
+	border: 2px solid black;
+}
 /* form */
 
 form input, form textarea{
