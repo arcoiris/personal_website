@@ -60,7 +60,7 @@ form input, form textarea{
 	height: 700px;
 	width: 960px;
 	margin: 40px auto;
-	background-color: white;
+	background-color: #ccc;
 	margin-top: 50px;
 }
 
@@ -91,11 +91,9 @@ form input, form textarea{
 	padding-left: 20px;
 	width: 50%;
  	float: left;
- 	background: #ccc;
 }
 
 .right_col { 
-	background: #ccc;
 	height: 100%;
 	width: 50%;
 	float: right;
@@ -103,18 +101,14 @@ form input, form textarea{
 }
 
 .full_col {
-	background-color: #ccc;
 	height: 100%;
 	width: 100%;
 	padding: 50px 30px 0 30px;
 }
 
 #small_project_examples {
-	overflow: auto;
-}
-
-#small_project_examples img {
-  border: 2px solid black;
+	overflow-y: auto;
+	overflow-x: hidden;
 }
 
 footer {
@@ -122,3 +116,5 @@ footer {
 	font-size: 90%;
 	text-align: center;
 }
+
+/* sprites */
