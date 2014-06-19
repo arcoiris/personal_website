@@ -1,0 +1,23 @@
+/****** Device Styles ********/
+
+
+/* Tablet Landscape: 1024px */
+
+@media only screen and (max-width: 1024) {
+
+	.wrapper {
+		width: 90%;
+	}
+}
+
+/* Tablet Portrait: 768px */
+
+/* Smartphone Landscape: 480px */
+
+
+
+/* Smartphone Landscape: 320px */
+
+
+
+/* Printer */
