@@ -45,6 +45,11 @@ figure {
 	border-radius: 100px;
 	border: 2px solid black;
 }
+
+#mobile_avatar {
+	display: none;
+}
+
 /* form */
 
 form input, form textarea {
@@ -130,13 +135,11 @@ tr {
 	overflow-x: hidden;
 }
 
-footer {
-	background-color: inherit;
-	font-size: 90%;
-	text-align: center;
+#mobile_footer {
+	display: none;
 }
 
-.top_nav_wrapper {
+#top_nav_wrapper {
 	display: none;
 }
 

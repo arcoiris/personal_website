@@ -20,6 +20,7 @@
 		margin-top:0;
 	}
 
+
 	#avatar {
 		width: 90%;
 	}
@@ -40,24 +41,53 @@
 	}
 
 
-	.top_nav_wrapper {
+	#top_nav_wrapper {
 		display: inline;
 		text-align: center;
-		background-color: #ccc;
 	}
+
+	.top_nav_bar nav a {
+		font-size: 1.5em;
+		background: #ccc;
+		border-left: 1px solid black;
+		border-right: 1px solid black;
+	}
+
+	#mobile_avatar {
+		display: inline;
+		width: 50%;
+		border-radius: 100px;
+		border: 2px solid black;
+	}
+
+	header h1 {
+		display: inline;
+	}
+
+	#mobile_footer {
+		display: block;
+		text-align: center;
+		text-shadow: 1px 1px #00FF80;
+	}
+
+		#mobile_footer a {
+			color: #00FF80;
+			text-shadow: 1px 1px #000;
+		}
+
+		#mobile_footer a:hover {
+			color: #000;
+			text-shadow: 1px 1px #00FF80;
+		}
 }
 
-	/* nav bar */
-
-
+/* Nav Bar */
 
 
 /* Smartphone Landscape: 480px */
 
 
-
 /* Smartphone Landscape: 320px */
-
 
 
 /* Printer */
