@@ -35,7 +35,7 @@
 		float: none; 
 	}
 
-	#small_project_examples {
+	#project_examples {
 		width: 400px;
 		height: 450px;
 	}
@@ -87,13 +87,45 @@
 		.resources {
 			width: 100%;
 		}
+
 }
 
 
 /* Smartphone Landscape: 480px */
 
+@media only screen and (max-width: 480px) {
 
-/* Smartphone Landscape: 320px */
+		.middle_col {
+			font-size: 1.1em;
+			width: 80%;		
+		}
 
+		.form_button {
+			width: 80%;
+		}
+
+		div #contact_form{
+			width: 100%;
+		}
+
+		#mobile_avatar {
+			width: 40%;
+		}
+}
+/* Smartphone Landscape: 320px, max-width: 450px for work example resizing */
+
+	@media only screen and (max-width: 450px) {
+		.full_col {
+			width: 80%;
+		}
+
+		#project_examples {
+			display: none;
+		}	
+
+		#small_project_examples { 
+			padding: 20px 50px 0px 50px;
+		}
+	}
 
 /* Printer */
