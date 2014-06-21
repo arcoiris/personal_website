@@ -20,16 +20,16 @@
 		margin-top:0;
 	}
 
+	.side_bar {
+		display: none;
+	}
 
 	#avatar {
 		width: 90%;
 	}
 
-	.side_bar {
-		display: none;
-	}
 
-	.middle_col, .right_col { 
+	.middle_col, .right_col, .full_col { 
 		width: 50%;
 		margin: 0 auto;
 		float: none; 
@@ -79,9 +79,15 @@
 			color: #000;
 			text-shadow: 1px 1px #00FF80;
 		}
-}
 
-/* Nav Bar */
+		div #contact_form {
+			width: 80%;
+		}
+
+		.resources {
+			width: 100%;
+		}
+}
 
 
 /* Smartphone Landscape: 480px */

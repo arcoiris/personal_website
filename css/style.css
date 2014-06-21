@@ -67,6 +67,11 @@ form input, form textarea{
 	margin-bottom: 10px;
 }
 
+#contact_form {
+	width: 50%;
+	margin: 0 auto;
+}
+
 /* resources table */
 
 .resources {
@@ -123,11 +128,6 @@ tr {
 	height: 100%;
 	width: 80%;
 	padding-top: 50px;
-}
-
-#contact_form {
-	width: 50%;
-	margin: 0 auto;
 }
 
 #small_project_examples {
