@@ -42,6 +42,7 @@ figure {
 }
 
 #avatar {
+	width: 80%;
 	border-radius: 100px;
 	border: 2px solid black;
 }
@@ -106,6 +107,7 @@ tr {
 
 .side_bar a {
 	display: block;
+	font-size: .9em;
 }
 
 .middle_col {
@@ -143,6 +145,7 @@ tr {
 	display: none;
 }
 
+
 /* sprites */
 
 a.iman {
@@ -159,3 +162,7 @@ a.iman:active {
 	opacity: 1;
 	background-position: -381px 0; 
 } 
+
+#small_project_examples {
+	display: none;
+}
