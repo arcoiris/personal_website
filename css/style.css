@@ -167,6 +167,23 @@ a.iman:active {
 	background-position: -381px 0; 
 } 
 
+a.studdy {
+	display: block;
+	width: 380px;
+	height: 360px;
+	background: url(../images/studdy_sprite.png);
+	background-position: 0 0;
+}
+
+a.studdy:hover { opacity: .5}
+
+a.studdy:active { 
+	opacity: 1;
+	background-position: -382px 0; 
+} 
+
+
+
 #small_project_examples {
 	display: none;
 }
