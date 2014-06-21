@@ -84,6 +84,10 @@ tr {
 	border-bottom: 10px solid #000;
 }
 
+td a {
+	text-shadow: 1px 1px #00FF80;
+}
+
 /* wrapper parent */
 
 .wrapper {
